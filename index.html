@@ -18,9 +18,11 @@
   <!-- NOTE my style sheet -->
   <link rel="stylesheet" href="style.css">
   <title>clone wars</title>
+  <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
+    defer></script>
 </head>
 
-<body>
+<body class="debug">
   <!-- ANCHOR hero -->
   <section>
     <div class="bg-secondary text-center text-light">
@@ -34,10 +36,10 @@
   <section>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-2">
           <span><i class="mdi mdi-meteor"></i></span>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-10 d-none d-md-block">
           <span>Home</span>
           <span>About</span>
           <span>Services</span>
@@ -47,7 +49,28 @@
           <span>SOLDIER Program</span>
         </div>
       </div>
-
+    </div>
+  </section>
+  <!-- ANCHOR about us -->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>ABOUT US</h2>
+          <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repellendus atque placeat.</small>
+        </div>
+        <div class="col-md-6">
+          groupimageplaceholder
+        </div>
+        <div class="col-md-6">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio temporibus consequatur magnam quia.</i>
+          <p>✅Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>✅Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>✅Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>✅Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
     </div>
   </section>
 </body>
